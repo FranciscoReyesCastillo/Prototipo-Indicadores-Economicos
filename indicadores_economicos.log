@@ -1,0 +1,131 @@
+2024-11-04 23:10:48,617 - DEBUG - --------------------- Inicio ---------------------
+2024-11-04 23:10:48,848 - INFO - Conexión correcta a base de datos.
+2024-11-04 23:10:48,858 - DEBUG - Starting new HTTPS connection (1): apis.digital.gob.cl:443
+2024-11-04 23:10:50,085 - DEBUG - https://apis.digital.gob.cl:443 "GET /fl/feriados/2024/11/04 HTTP/11" 200 None
+2024-11-04 23:10:50,087 - INFO - Consulta REST API Feriados devuelve un código: 200
+2024-11-04 23:10:50,087 - INFO - Consulta REST API Feriados: {'error': True, 'message': 'No se han encontrado feriados'}
+2024-11-04 23:10:50,091 - DEBUG - Starting new HTTPS connection (1): si3.bcentral.cl:443
+2024-11-04 23:10:50,488 - DEBUG - https://si3.bcentral.cl:443 "GET /SieteRestWS/SieteRestWS.ashx?user=f.reyes51@alumnos.santotomas.cl&pass=mQ9Xsg&firstdate=2024-11-04&lastdate=2024-11-04&timeseries=F073.TCO.PRE.Z.D&function=GetSeries HTTP/11" 200 533
+2024-11-04 23:10:50,489 - DEBUG - {'Codigo': 0, 'Descripcion': 'Success', 'Series': {'descripEsp': 'Tipo de cambio nominal (dólar observado $CLP/USD); tipo de cambio; ; precio; diario; ; Banco Central de Chile; ; ', 'descripIng': 'Nominal exchange rate (Observed dollar $CLP/USD); exchange rate; ; price; daily; ; central bank of chile; ; ', 'seriesId': 'F073.TCO.PRE.Z.D', 'Obs': [{'indexDateString': '04-11-2024', 'value': '961.29', 'statusCode': 'OK'}]}, 'SeriesInfos': []}
+2024-11-04 23:10:50,490 - INFO - Consulta REST a Banco Central devuelve un código: 200
+2024-11-04 23:10:50,511 - INFO - Conexión correcta a base de datos.
+2024-11-04 23:10:50,516 - INFO - Valor 961.29 de USD ya registrado.
+2024-11-04 23:10:50,516 - INFO - Valor 961.29 de USD guardado en base de datos
+2024-11-04 23:10:50,519 - DEBUG - Starting new HTTPS connection (1): apis.digital.gob.cl:443
+2024-11-04 23:10:51,665 - DEBUG - https://apis.digital.gob.cl:443 "GET /fl/feriados/2024/11/04 HTTP/11" 200 None
+2024-11-04 23:10:51,666 - INFO - Consulta REST API Feriados devuelve un código: 200
+2024-11-04 23:10:51,666 - INFO - Consulta REST API Feriados: {'error': True, 'message': 'No se han encontrado feriados'}
+2024-11-04 23:10:51,668 - DEBUG - Starting new HTTPS connection (1): si3.bcentral.cl:443
+2024-11-04 23:10:51,778 - DEBUG - https://si3.bcentral.cl:443 "GET /SieteRestWS/SieteRestWS.ashx?user=f.reyes51@alumnos.santotomas.cl&pass=mQ9Xsg&firstdate=2024-11-04&lastdate=2024-11-04&timeseries=F072.CLP.EUR.N.O.D&function=GetSeries HTTP/11" 200 367
+2024-11-04 23:10:51,779 - DEBUG - {'Codigo': 0, 'Descripcion': 'Success', 'Series': {'descripEsp': 'Tipo de cambio nominal euro', 'descripIng': 'Euro nominal exchange rate', 'seriesId': 'F072.CLP.EUR.N.O.D', 'Obs': [{'indexDateString': '04-11-2024', 'value': '1044.09', 'statusCode': 'OK'}]}, 'SeriesInfos': []}
+2024-11-04 23:10:51,779 - INFO - Consulta REST a Banco Central devuelve un código: 200
+2024-11-04 23:10:51,793 - INFO - Conexión correcta a base de datos.
+2024-11-04 23:10:51,796 - INFO - Valor 1044.09 de EURO ya registrado.
+2024-11-04 23:10:51,797 - INFO - Valor 1044.09 de EURO guardado en base de datos
+2024-11-04 23:10:51,797 - DEBUG - UF, F073.UFF.PRE.Z.D, {'diaria': False, 'rango': {'inicio': '%Y/%m/10', 'termino': '%Y/%(m+1)/%(+9)'}}
+2024-11-04 23:10:51,797 - INFO - Fuera de rango de fechas de indicador UF
+2024-11-04 23:10:51,797 - DEBUG - UTM, F073.UTR.PRE.Z.M, {'diaria': False, 'rango': {'inicio': '%Y/%m/01', 'termino': '%Y/%(m+1)/%(-1)'}}
+2024-11-04 23:10:51,798 - INFO - Fuera de rango de fechas de indicador UTM
+2024-11-04 23:10:53,855 - INFO - Envío de correo: True
+2024-11-04 23:50:20,514 - DEBUG - --------------------- Inicio ---------------------
+2024-11-04 23:50:20,640 - INFO - Conexión correcta a base de datos.
+2024-11-04 23:50:20,644 - ERROR - Error dia_habil(): type object 'datetime.datetime' has no attribute 'datetime'
+2024-11-04 23:50:20,644 - INFO - Error en consulta de si hoy es un día hábil
+2024-11-04 23:50:20,644 - ERROR - Error dia_habil(): type object 'datetime.datetime' has no attribute 'datetime'
+2024-11-04 23:50:20,644 - INFO - Error en consulta de si hoy es un día hábil
+2024-11-04 23:50:20,644 - ERROR - Error dia_habil(): type object 'datetime.datetime' has no attribute 'datetime'
+2024-11-04 23:50:20,645 - INFO - Error en consulta de si hoy es un día hábil
+2024-11-04 23:50:20,645 - ERROR - Error dia_habil(): type object 'datetime.datetime' has no attribute 'datetime'
+2024-11-04 23:50:20,645 - INFO - Error en consulta de si hoy es un día hábil
+2024-11-04 23:50:20,645 - ERROR - Error dia_habil(): type object 'datetime.datetime' has no attribute 'datetime'
+2024-11-04 23:50:20,645 - INFO - Error en consulta de si hoy es un día hábil
+2024-11-04 23:50:20,646 - ERROR - Error dia_habil(): type object 'datetime.datetime' has no attribute 'datetime'
+2024-11-04 23:50:20,646 - INFO - Error en consulta de si hoy es un día hábil
+2024-11-04 23:50:20,646 - ERROR - Error dia_habil(): type object 'datetime.datetime' has no attribute 'datetime'
+2024-11-04 23:50:20,646 - INFO - Error en consulta de si hoy es un día hábil
+2024-11-04 23:50:20,646 - ERROR - Error dia_habil(): type object 'datetime.datetime' has no attribute 'datetime'
+2024-11-04 23:50:20,646 - INFO - Error en consulta de si hoy es un día hábil
+2024-11-04 23:50:20,647 - DEBUG - UF, F073.UFF.PRE.Z.D, {'diaria': False, 'rango': {'inicio': '%Y/%m/10', 'termino': '%Y/%(m+1)/%(+9)'}}
+2024-11-04 23:50:20,647 - INFO - Fuera de rango de fechas de indicador UF
+2024-11-04 23:50:20,647 - DEBUG - UTM, F073.UTR.PRE.Z.M, {'diaria': False, 'rango': {'inicio': '%Y/%m/01', 'termino': '%Y/%(m+1)/%(-1)'}}
+2024-11-04 23:50:20,647 - INFO - Fuera de rango de fechas de indicador UTM
+2024-11-04 23:50:23,361 - INFO - Envío de correo: True
+2024-11-04 23:52:09,493 - DEBUG - --------------------- Inicio ---------------------
+2024-11-04 23:52:09,612 - INFO - Conexión correcta a base de datos.
+2024-11-04 23:52:09,619 - DEBUG - Starting new HTTPS connection (1): apis.digital.gob.cl:443
+2024-11-04 23:52:10,732 - DEBUG - https://apis.digital.gob.cl:443 "GET /fl/feriados/2024/11/04 HTTP/11" 200 None
+2024-11-04 23:52:10,734 - INFO - Consulta REST API Feriados devuelve un código: 200
+2024-11-04 23:52:10,735 - INFO - Consulta REST API Feriados: {'error': True, 'message': 'No se han encontrado feriados'}
+2024-11-04 23:52:10,739 - DEBUG - Starting new HTTPS connection (1): si3.bcentral.cl:443
+2024-11-04 23:52:11,141 - DEBUG - https://si3.bcentral.cl:443 "GET /SieteRestWS/SieteRestWS.ashx?user=f.reyes51@alumnos.santotomas.cl&pass=mQ9Xsg0&firstdate=2024-11-04&lastdate=2024-11-04&timeseries=F073.TCO.PRE.Z.D&function=GetSeries HTTP/11" 200 203
+2024-11-04 23:52:11,142 - DEBUG - {'Codigo': -5, 'Descripcion': 'Invalid username or password', 'Series': {'descripEsp': None, 'descripIng': None, 'seriesId': None, 'Obs': None}, 'SeriesInfos': []}
+2024-11-04 23:52:11,142 - INFO - Consulta REST a Banco Central devuelve un código: 200
+2024-11-04 23:52:11,142 - INFO - Valor incorrecto en clave Descripcion en json de consulta a API para USD.
+2024-11-04 23:52:11,144 - DEBUG - Starting new HTTPS connection (1): apis.digital.gob.cl:443
+2024-11-04 23:52:12,289 - DEBUG - https://apis.digital.gob.cl:443 "GET /fl/feriados/2024/11/04 HTTP/11" 200 None
+2024-11-04 23:52:12,290 - INFO - Consulta REST API Feriados devuelve un código: 200
+2024-11-04 23:52:12,291 - INFO - Consulta REST API Feriados: {'error': True, 'message': 'No se han encontrado feriados'}
+2024-11-04 23:52:12,293 - DEBUG - Starting new HTTPS connection (1): si3.bcentral.cl:443
+2024-11-04 23:52:12,343 - DEBUG - https://si3.bcentral.cl:443 "GET /SieteRestWS/SieteRestWS.ashx?user=f.reyes51@alumnos.santotomas.cl&pass=mQ9Xsg0&firstdate=2024-11-04&lastdate=2024-11-04&timeseries=F073.TCO.PRE.Z.D&function=GetSeries HTTP/11" 200 203
+2024-11-04 23:52:12,344 - DEBUG - {'Codigo': -5, 'Descripcion': 'Invalid username or password', 'Series': {'descripEsp': None, 'descripIng': None, 'seriesId': None, 'Obs': None}, 'SeriesInfos': []}
+2024-11-04 23:52:12,344 - INFO - Consulta REST a Banco Central devuelve un código: 200
+2024-11-04 23:52:12,345 - INFO - Valor incorrecto en clave Descripcion en json de consulta a API para USD.
+2024-11-04 23:52:12,346 - DEBUG - Starting new HTTPS connection (1): apis.digital.gob.cl:443
+2024-11-04 23:52:13,506 - DEBUG - https://apis.digital.gob.cl:443 "GET /fl/feriados/2024/11/04 HTTP/11" 200 None
+2024-11-04 23:52:13,507 - INFO - Consulta REST API Feriados devuelve un código: 200
+2024-11-04 23:52:13,507 - INFO - Consulta REST API Feriados: {'error': True, 'message': 'No se han encontrado feriados'}
+2024-11-04 23:52:13,509 - DEBUG - Starting new HTTPS connection (1): si3.bcentral.cl:443
+2024-11-04 23:52:13,574 - DEBUG - https://si3.bcentral.cl:443 "GET /SieteRestWS/SieteRestWS.ashx?user=f.reyes51@alumnos.santotomas.cl&pass=mQ9Xsg0&firstdate=2024-11-04&lastdate=2024-11-04&timeseries=F073.TCO.PRE.Z.D&function=GetSeries HTTP/11" 200 203
+2024-11-04 23:52:13,575 - DEBUG - {'Codigo': -5, 'Descripcion': 'Invalid username or password', 'Series': {'descripEsp': None, 'descripIng': None, 'seriesId': None, 'Obs': None}, 'SeriesInfos': []}
+2024-11-04 23:52:13,575 - INFO - Consulta REST a Banco Central devuelve un código: 200
+2024-11-04 23:52:13,575 - INFO - Valor incorrecto en clave Descripcion en json de consulta a API para USD.
+2024-11-04 23:52:13,577 - DEBUG - Starting new HTTPS connection (1): apis.digital.gob.cl:443
+2024-11-04 23:52:14,593 - DEBUG - https://apis.digital.gob.cl:443 "GET /fl/feriados/2024/11/04 HTTP/11" 200 None
+2024-11-04 23:52:14,595 - INFO - Consulta REST API Feriados devuelve un código: 200
+2024-11-04 23:52:14,595 - INFO - Consulta REST API Feriados: {'error': True, 'message': 'No se han encontrado feriados'}
+2024-11-04 23:52:14,598 - DEBUG - Starting new HTTPS connection (1): si3.bcentral.cl:443
+2024-11-04 23:52:14,649 - DEBUG - https://si3.bcentral.cl:443 "GET /SieteRestWS/SieteRestWS.ashx?user=f.reyes51@alumnos.santotomas.cl&pass=mQ9Xsg0&firstdate=2024-11-04&lastdate=2024-11-04&timeseries=F073.TCO.PRE.Z.D&function=GetSeries HTTP/11" 200 203
+2024-11-04 23:52:14,650 - DEBUG - {'Codigo': -5, 'Descripcion': 'Invalid username or password', 'Series': {'descripEsp': None, 'descripIng': None, 'seriesId': None, 'Obs': None}, 'SeriesInfos': []}
+2024-11-04 23:52:14,650 - INFO - Consulta REST a Banco Central devuelve un código: 200
+2024-11-04 23:52:14,650 - INFO - Valor incorrecto en clave Descripcion en json de consulta a API para USD.
+2024-11-04 23:52:14,652 - DEBUG - Starting new HTTPS connection (1): apis.digital.gob.cl:443
+2024-11-04 23:52:15,754 - DEBUG - https://apis.digital.gob.cl:443 "GET /fl/feriados/2024/11/04 HTTP/11" 200 None
+2024-11-04 23:52:15,755 - INFO - Consulta REST API Feriados devuelve un código: 200
+2024-11-04 23:52:15,755 - INFO - Consulta REST API Feriados: {'error': True, 'message': 'No se han encontrado feriados'}
+2024-11-04 23:52:15,757 - DEBUG - Starting new HTTPS connection (1): si3.bcentral.cl:443
+2024-11-04 23:52:15,824 - DEBUG - https://si3.bcentral.cl:443 "GET /SieteRestWS/SieteRestWS.ashx?user=f.reyes51@alumnos.santotomas.cl&pass=mQ9Xsg0&firstdate=2024-11-04&lastdate=2024-11-04&timeseries=F072.CLP.EUR.N.O.D&function=GetSeries HTTP/11" 200 203
+2024-11-04 23:52:15,824 - DEBUG - {'Codigo': -5, 'Descripcion': 'Invalid username or password', 'Series': {'descripEsp': None, 'descripIng': None, 'seriesId': None, 'Obs': None}, 'SeriesInfos': []}
+2024-11-04 23:52:15,825 - INFO - Consulta REST a Banco Central devuelve un código: 200
+2024-11-04 23:52:15,825 - INFO - Valor incorrecto en clave Descripcion en json de consulta a API para EURO.
+2024-11-04 23:52:15,827 - DEBUG - Starting new HTTPS connection (1): apis.digital.gob.cl:443
+2024-11-04 23:52:16,928 - DEBUG - https://apis.digital.gob.cl:443 "GET /fl/feriados/2024/11/04 HTTP/11" 200 None
+2024-11-04 23:52:16,930 - INFO - Consulta REST API Feriados devuelve un código: 200
+2024-11-04 23:52:16,930 - INFO - Consulta REST API Feriados: {'error': True, 'message': 'No se han encontrado feriados'}
+2024-11-04 23:52:16,932 - DEBUG - Starting new HTTPS connection (1): si3.bcentral.cl:443
+2024-11-04 23:52:18,187 - DEBUG - https://si3.bcentral.cl:443 "GET /SieteRestWS/SieteRestWS.ashx?user=f.reyes51@alumnos.santotomas.cl&pass=mQ9Xsg0&firstdate=2024-11-04&lastdate=2024-11-04&timeseries=F072.CLP.EUR.N.O.D&function=GetSeries HTTP/11" 200 203
+2024-11-04 23:52:18,188 - DEBUG - {'Codigo': -5, 'Descripcion': 'Invalid username or password', 'Series': {'descripEsp': None, 'descripIng': None, 'seriesId': None, 'Obs': None}, 'SeriesInfos': []}
+2024-11-04 23:52:18,188 - INFO - Consulta REST a Banco Central devuelve un código: 200
+2024-11-04 23:52:18,188 - INFO - Valor incorrecto en clave Descripcion en json de consulta a API para EURO.
+2024-11-04 23:52:18,190 - DEBUG - Starting new HTTPS connection (1): apis.digital.gob.cl:443
+2024-11-04 23:52:19,368 - DEBUG - https://apis.digital.gob.cl:443 "GET /fl/feriados/2024/11/04 HTTP/11" 200 None
+2024-11-04 23:52:19,370 - INFO - Consulta REST API Feriados devuelve un código: 200
+2024-11-04 23:52:19,371 - INFO - Consulta REST API Feriados: {'error': True, 'message': 'No se han encontrado feriados'}
+2024-11-04 23:52:19,374 - DEBUG - Starting new HTTPS connection (1): si3.bcentral.cl:443
+2024-11-04 23:52:19,433 - DEBUG - https://si3.bcentral.cl:443 "GET /SieteRestWS/SieteRestWS.ashx?user=f.reyes51@alumnos.santotomas.cl&pass=mQ9Xsg0&firstdate=2024-11-04&lastdate=2024-11-04&timeseries=F072.CLP.EUR.N.O.D&function=GetSeries HTTP/11" 200 203
+2024-11-04 23:52:19,435 - DEBUG - {'Codigo': -5, 'Descripcion': 'Invalid username or password', 'Series': {'descripEsp': None, 'descripIng': None, 'seriesId': None, 'Obs': None}, 'SeriesInfos': []}
+2024-11-04 23:52:19,435 - INFO - Consulta REST a Banco Central devuelve un código: 200
+2024-11-04 23:52:19,436 - INFO - Valor incorrecto en clave Descripcion en json de consulta a API para EURO.
+2024-11-04 23:52:19,438 - DEBUG - Starting new HTTPS connection (1): apis.digital.gob.cl:443
+2024-11-04 23:52:20,568 - DEBUG - https://apis.digital.gob.cl:443 "GET /fl/feriados/2024/11/04 HTTP/11" 200 None
+2024-11-04 23:52:20,570 - INFO - Consulta REST API Feriados devuelve un código: 200
+2024-11-04 23:52:20,570 - INFO - Consulta REST API Feriados: {'error': True, 'message': 'No se han encontrado feriados'}
+2024-11-04 23:52:20,572 - DEBUG - Starting new HTTPS connection (1): si3.bcentral.cl:443
+2024-11-04 23:52:20,624 - DEBUG - https://si3.bcentral.cl:443 "GET /SieteRestWS/SieteRestWS.ashx?user=f.reyes51@alumnos.santotomas.cl&pass=mQ9Xsg0&firstdate=2024-11-04&lastdate=2024-11-04&timeseries=F072.CLP.EUR.N.O.D&function=GetSeries HTTP/11" 200 203
+2024-11-04 23:52:20,625 - DEBUG - {'Codigo': -5, 'Descripcion': 'Invalid username or password', 'Series': {'descripEsp': None, 'descripIng': None, 'seriesId': None, 'Obs': None}, 'SeriesInfos': []}
+2024-11-04 23:52:20,625 - INFO - Consulta REST a Banco Central devuelve un código: 200
+2024-11-04 23:52:20,625 - INFO - Valor incorrecto en clave Descripcion en json de consulta a API para EURO.
+2024-11-04 23:52:20,625 - DEBUG - UF, F073.UFF.PRE.Z.D, {'diaria': False, 'rango': {'inicio': '%Y/%m/10', 'termino': '%Y/%(m+1)/%(+9)'}}
+2024-11-04 23:52:20,626 - INFO - Fuera de rango de fechas de indicador UF
+2024-11-04 23:52:20,626 - DEBUG - UTM, F073.UTR.PRE.Z.M, {'diaria': False, 'rango': {'inicio': '%Y/%m/01', 'termino': '%Y/%(m+1)/%(-1)'}}
+2024-11-04 23:52:20,626 - INFO - Fuera de rango de fechas de indicador UTM
+2024-11-04 23:52:23,524 - INFO - Envío de correo: True
